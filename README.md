@@ -32,8 +32,8 @@ Check your Python version:
 ```bash
 python --version
 
-3) Setup (Recommended: Virtual Environment)
-Windows (PowerShell)
+## 3) Setup (Recommended: Virtual Environment)
+## Windows (PowerShell)
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
