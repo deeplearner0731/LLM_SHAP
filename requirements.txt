@@ -1,0 +1,9 @@
+shiny>=0.6
+numpy>=1.22
+pandas>=1.5
+matplotlib>=3.6
+scikit-learn>=1.1
+xgboost>=1.7
+shap>=0.43
+lime>=0.2
+openai>=1.0
