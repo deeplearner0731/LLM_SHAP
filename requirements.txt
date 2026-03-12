@@ -7,3 +7,4 @@ xgboost>=1.7
 shap>=0.43
 lime>=0.2
 openai>=1.0
+jinja2>=3.1
