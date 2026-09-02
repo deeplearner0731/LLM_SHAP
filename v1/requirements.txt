@@ -1,0 +1,18 @@
+shiny>=0.6
+numpy>=1.22
+pandas>=1.5
+scipy>=1.9
+matplotlib>=3.6
+scikit-learn>=1.1
+xgboost>=1.7
+shap>=0.43
+lime>=0.2
+lifelines>=0.27
+openai>=1.0
+jinja2>=3.1
+
+# Optional. Equation (6), semantic similarity between generated narratives, uses
+# all-MiniLM-L6-v2 when this is installed and falls back to TF-IDF cosine otherwise. The
+# fallback is reported in the Sensitivity output, so results stay self-describing either way.
+# It pulls in PyTorch, so it is left out of the default install:
+#   pip install sentence-transformers
